@@ -1,0 +1,141 @@
+
+#ico ul{
+  float:left;
+  list-style:none;
+
+
+}
+#ico ul li{
+	float:left;
+	margin-top:32px;
+	margin-right:20px;
+}
+.fb{
+	width: 38px;
+}
+.ig{
+	width: 38px;
+}
+.tw{
+	width: 38px;
+}
+.yt{
+	width: 38px;
+}
+
+
+.jumbotron #myJumbotron {
+  background: url('../images/classroom.jpg');
+  background-size:cover;
+  background-size:100%;
+}
+@media screen and (min-width: 1200px) {
+    // 如果使用者之視窗寬度 >= 1200px，將會再載入這裡的 CSS。
+}
+
+@media screen and (min-width: 768px) and (max-width: 985px) {
+        #ico ul{
+  display: none
+
+
+}     
+}
+
+@media screen and (max-width: 767px) {
+           #ico1 ul{
+  display:block;
+  float:right;
+  list-style:none;
+}
+#ico1 ul li{
+	float:left;
+	margin-top:9px;
+	margin-right:20px;
+}
+#ico1 ul li .ig{
+		width: 19px;
+		
+	}
+	#ico1 ul li .fb{
+		width: 19px;
+		
+	}
+	#ico1 ul li .yt{
+		width: 19px;
+		
+	}
+	#ico1 ul li .tw{
+		width: 19px;
+		
+	}
+	        #ico ul{
+  display: none
+
+
+} 
+	
+}
+@media screen and (max-device-width: 480px) {
+               #ico1 ul{
+  display:block;
+  float:right;
+  list-style:none;
+  
+
+}
+#ico1 ul li{
+	float:left;
+	margin-top:32px;
+	margin-right:20px;
+	
+}
+	#ico1 ul li .ig{
+		width: 50%
+	}
+	#ico1 ul li .fb{
+		width: 50%
+	}
+	#ico1 ul li .yt{
+		width: 50%
+	}
+	#ico1 ul li .tw{
+		width: 50%
+	}
+	        #ico ul{
+  display: none
+
+
+} 
+}
+@media screen and (max-device-width: 280px) {
+               #ico1 ul{
+  display:block;
+  float:right;
+  list-style:none;
+  
+
+}
+#ico1 ul li{
+	float:left;
+	margin-top:32px;
+	margin-right:20px;
+	
+}
+	#ico1 ul li .ig{
+		width: 50%
+	}
+	#ico1 ul li .fb{
+		width: 50%
+	}
+	#ico1 ul li .yt{
+		width: 50%
+	}
+	#ico1 ul li .tw{
+		width: 50%
+	}
+	        #ico ul{
+  display: none
+
+
+} 
+}

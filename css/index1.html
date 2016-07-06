@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <link href="css/cover.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/btn.css" rel="stylesheet">
+    <link href="css/jsbin.yamunoliri.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <style id="jsbin-css">
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 3
+}
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+    
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.toggle {
+    margin: 5px 5px 0 0;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    opacity:0.1;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    opacity: 1;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheeta:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from body
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+position0
+‒margin5
+‒border1
+1padding10
+1615.438 × 2416
+101
+15
+‒0
+‒
+Console
+Emulation
+Rendering
+.pull-right {
+    float: right;
+}
+.toggle {
+    margin: 5px 5px 0 0;
+}
+.pull-right {
+    float: right!important;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheeta:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+Inherited from ul.sidebar-nav
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+user agent stylesheetul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+margin5
+‒border1
+1padding10
+1614.156 × 2416
+101
+15
+‒
+Console
+Emulation
+Rendering
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;/*字
+        從左到右的距離*/
+    }
+
+    #wrapper.toggled {
+        padding-left: 100px;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;/*黑色大小*/
+    }
+
+   
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0px;/*//白三角向左留下的黑剩多少*/
+    }
+
+    #page-content-wrapper {
+        padding: 20px;/*文字最左到右縮小的距離*/
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;/*按鍵的大小*/
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+#sidebar-wrapper.active {
+    right: -250px;
+    width: -250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+#menu-close{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+        display: none;
+}
+#menu-close:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+    display: none;
+}
+#menu-toggle:focus{
+
+
+}
+</style>
+</head>
+
+    <body>
+
+    <div id="wrapper">
+          <a class="btn btn-light btn-lg toggle" id="menu-toggle"><i class="fa fa-bars"></i>X</a><!-- x -->
+          <!-- Sidebar -->
+          <div id="sidebar-wrapper" class="nav nav-tabs">
+            <ul class="sidebar-nav">
+            <a class="btn btn-dark btn-lg toggle" id="menu-close">
+            <!-- <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> --> 
+            <a><!--三 -->  
+                    <li class="sidebar-brand">
+                        <a data-toggle="tab" href="#home">Home</a>
+                    </li>
+                    <li class="dropdown" data-toggle="collapse" data-target="#demo">Japan Song<span class="caret">  </span>
+
+                    <ul id="demo" class="collapse">
+                        <a data-toggle="tab" href="#menu1">Unravel</a>
+                        <a data-toggle="tab" href="#menu2">aLIEz</a>
+                        <a data-toggle="tab" href="#menu3">Brave Shine</a>
+                     </ul>
+                     </li>
+                    <li class="dropdown" data-toggle="collapse" data-target="#demo1">Taiwan Song<span class="caret"> </span>
+                    <ul id="demo1" class="collapse">
+                        <a data-toggle="tab" href="#menu4">聽見下雨的聲音</a>
+                        <a data-toggle="tab" href="#menu5">I Want You Back</a>
+                    </ul>
+                    </li>
+                    <li class="dropdown" data-toggle="collapse" data-target="#demo2">America Song<span class="caret"></span>
+                    <ul id="demo2" class="collapse">
+                        <a data-toggle="tab" href="#menu6">She Will Be Love</a>
+                        <a data-toggle="tab" href="#menu7">Maps</a>
+                        <a data-toggle="tab" href="#menu8">One More Night</a>
+                        <a data-toggle="tab" href="#menu9">Dani Calfornia</a>
+                    </ul>
+                    </li>
+            </ul><!--sidebar-nav -->
+          </div><!-- sidebar-wrapper -->
+                <div class="tab-content">
+                    <div id="menu1" class="tab-pane fade in active"><!-- Page Content -->
+                    <div id="page-content-wrapper">
+                    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                            <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                            <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                            <div class='circle4'> <div class='inner4'></div> </div>
+                            <div class='circle5'> <div class='inner5'></div> </div>
+                            <div class="filmback">                     
+                            <iframe class="film" src="https://player.vimeo.com/video/150402765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <p class="tab">DRUM TAB</p>
+                            <img class="un1" src="img/un1.jpg"><img class="un2" src="img/un2.jpg"><img class="un3" src="img/un3.jpg"><img class="un4" src="img/un4.jpg">
+            </div>
+        </div>
+                </div>
+                </div>
+                </div>
+            </div><!-- Unravel --><!-- /#page-content-wrapper -->
+
+            <div class="tab-content">
+                <div id="menu4" class="tab-pane fade"> <!-- Page Content -->
+                <div id="page-content-wrapper">
+                <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                        <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                        <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                        <div class='circle4'><div class='inner4'></div></div>
+                        <div class='circle5'><div class='inner5'></div></div>
+                        <div class="filmback">                     
+                        <iframe src="https://player.vimeo.com/video/151392493" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p><a href="https://vimeo.com/151392493">周杰倫-聽見下雨的聲音Drum Cover(by Kyle Yeung)  （網頁課程需求所以上傳 not my video）</a> from <a href="https://vimeo.com/user47435257">Alienchen</a> on <a href="https://vimeo.com">Vimeo</\\\\\\\\\\\\\\a>.</p>
+                        <p class="tab">DRUM TAB</p>
+                        <img class="un1" src="img/下雨01.png"><img class="un2" src="img/下雨02.png">
+            </div>
+        </div>
+                </div>
+                </div>
+                </div>
+            </div><!-- 聽見下雨的聲音 --><!-- /#page-content-wrapper -->
+
+
+            <div class="tab-content">
+                <div id="menu5" class="tab-pane fade"><!-- Page Content -->
+                <div id="page-content-wrapper">
+                <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                    <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                    <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                    <div class='circle4'><div class='inner4'></div></div>
+                    <div class='circle5'><div class='inner5'></div></div>
+                    <div class="filmback">                     
+                    <iframe class="film" src="https://player.vimeo.com/video/150402765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <p class="tab">DRUM TAB</p>
+                    <img class="un1" src="img/un1.jpg"><img class="un2" src="img/un2.jpg"><img class="un3" src="img/un3.jpg"><img class="un4" src="img/un4.jpg">
+            </div>
+        </div>
+                </div>
+                </div>
+                </div>
+            </div><!-- I want you back --><!-- /#page-content-wrapper -->
+
+            <div class="tab-content">
+                    <div id="menu3" class="tab-pane fade"> <!-- Page Content -->
+                    <div id="page-content-wrapper">
+                    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                        <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                        <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                        <div class='circle4'><div class='inner4'></div></div>
+                        <div class='circle5'><div class='inner5'></div></div>
+                         <div class="filmback">                     
+                        <iframe class="film" src="https://player.vimeo.com/video/150402765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p class="tab">DRUM TAB</p>
+                        <img class="un1" src="img/aimer-01.jpg"><img class="un2 "src="img/aimer-02.jpg"><img class="un3" src="aimer-03.jpg">
+            </div>
+        </div>
+                    </div>
+                    </div>
+                    </div>
+            </div><!-- BRAVE SHINE  --><!-- /#page-content-wrapper -->
+
+
+            <div class="tab-content">
+                    <div id="menu2" class="tab-pane fade"><!-- Page Content -->
+                    <div id="page-content-wrapper">
+                    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                        <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                        <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                        <div class='circle4'><div class='inner4'></div></div>
+                        <div class='circle5'><div class='inner5'></div></div>
+                        <div class="filmback">                     
+                        <iframe src="https://player.vimeo.com/video/151394244" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p><a href="https://vimeo.com/151394244">「aLIEz」 Aldnoah.Zero ED2 {drum cover}（網頁課程需求上傳 not my video）</a> from <a href="https://vimeo.com/user47435257">Alienchen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                        <p class="tab">DRUM TAB</p>
+                        <img class="un1" src="img/"><img class="un2" src="img/"><img class="un3" src="img/">
+            </div>
+        </div>
+                    </div>
+                    </div>
+                    </div>
+        
+    </div><!-- aLIEz  --><!-- /#page-content-wrapper -->
+
+                <div class="tab-content">
+                    <div id="menu9" class="tab-pane fade"> <!-- Page Content -->
+                    <div id="page-content-wrapper">
+                    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                        <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                        <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                        <div class='circle4'><div class='inner4'></div></div>
+                        <div class='circle5'><div class='inner5'></div></div>
+                        <div class="filmback">                     
+                        <iframe src="https://player.vimeo.com/video/151394244" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p><a href="https://vimeo.com/151394244">「aLIEz」 Aldnoah.Zero ED2 {drum cover}（網頁課程需求上傳 not my video）</a> from <a href="https://vimeo.com/user47435257">Alienchen</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                        <p class="tab">DRUM TAB</p>
+                        <img class="un1" src="img/un1.jpg"><img class="un2" src="img/un2.jpg"><img class="un3" src="img/un3.jpg"><img class="un4" src="img/un4.jpg">
+            </div>
+        </div>
+                    </div>
+                    </div>
+                    </div>
+        
+    </div><!-- DANI CALIFORNIA   --><!-- /#page-content-wrapper -->
+
+                <div class="tab-content">
+                    <div id="menu6" class="tab-pane fade"> <!-- Page Content -->
+                    <div id="page-content-wrapper">
+                    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                        <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                        <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                        <div class='circle4'><div class='inner4'></div></div>
+                        <div class='circle5'><div class='inner5'></div></div>
+                        <div class="filmback">                     
+                        <iframe class="film" src="https://player.vimeo.com/video/150402765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p class="tab">DRUM TAB</p>
+                        <img class="un1" src="img/un1.jpg"><img class="un2" src="img/un2.jpg"><img class="un3" src="img/un3.jpg"><img class="un4" src="img/un4.jpg">
+            </div>
+        </div>
+                    </div>
+                    </div>
+                    </div>
+        
+                </div><!-- SHE WILL BE LOVE --><!-- /#page-content-wrapper -->
+
+                <div class="tab-content">
+                    <div id="menu7" class="tab-pane fade"> <!-- Page Content -->
+                    <div id="page-content-wrapper">
+                    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                        <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                        <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p>
+                        <div class='circle4'><div class='inner4'></div></div>
+                        <div class='circle5'><div class='inner5'></div></div>
+                        <div class="filmback">                     
+                        <iframe class="film" src="https://player.vimeo.com/video/150402765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p class="tab">DRUM TAB</p>
+                        <img class="un1" src="img/un1.jpg"><img class="un2" src="img/un2.jpg"><img class="un3" src="img/un3.jpg"><img class="un4" src="img/un4.jpg">
+            </div>
+         </div>
+                    </div>
+                    </div>
+                    </div>
+                </div><!-- MAPS --><!-- /#page-content-wrapper -->
+    
+                <div class="tab-content">
+                    <div id="menu8" class="tab-pane fade"><!-- Page Content -->
+                    <div id="page-content-wrapper">
+                    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12"> 
+                        <div><img class="unravel" src="img/unravl.png" alt=""></div>
+                        <p class="drumer">Cover bt Alan Chao &nbsp;&nbsp;&nbsp;&nbsp; Film by Alien Chen</p><div class='circle4'><div class='inner4'></div></div><div class='circle5'><div class='inner5'></div></div>
+                        <div class="filmback">                     
+                        <iframe class="film" src="https://player.vimeo.com/video/150402765" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p class="tab">DRUM TAB</p>
+                        <img class="un1" src="img/un1.jpg"><img class="un2" src="img/un2.jpg"><img class="un3" src="img/un3.jpg"><img class="un4" src="img/un4.jpg">
+ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div><!--ONE MORE NIGHT -->
+    <!-- /#wrapper -->
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Menu Toggle Script -->
+        <script>
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").addClass("toggled");
+            });
+        </script>
+        <script>
+            $("#menu-close").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").removeClass("toggled");
+            });
+        </script>
+        <script>
+            $("#menu-toggle").click(function(s) {
+                s.preventDefault();
+                $("#menu-toggle").css("display","none");
+                $("#menu-close").css("display","block");
+               
+            });
+
+             $("#menu-close").click(function(s) {
+                s.preventDefault();
+                $("#menu-close").css("display","none");
+                $("#menu-toggle").css("display","block");
+
+            });
+
+        </script>
+            </div>            
+        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div><!-- One More Night --><!-- /#page-content-wrapper -->
+</div><!-- wrapper -->                      
+
+
+</body>
